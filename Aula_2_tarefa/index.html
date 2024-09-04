@@ -1,17 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefa 2</title>
 </head>
+
 <body>
     <form action="https://slepybr.github.io/WebDesing-/">
-    <label for="pnome">Primeiro nome:</label><br>
-    <input type="text" id="pnome" name="pnome" value="Saul">
-    <label for="unome">Ultimo nome:</label><br>
-    <input type="text" id="unome" name="unome" value="Cervenkow">
-    <input type="submit" value="submit">
-</form> 
+        <div>
+            <label for="dataniver">Data de aniversario</label><br>
+            <input type="date" value="dataniver">
+            <br>
+            <label for="usuario">Usuario</label><br>
+            <input type="text">
+            <br>
+            <label for="senha">Senha</label>
+            <br><input type="password" name="senha" id="senha">
+            <br>
+            <br>
+            <h1>Dados pessoais</h1>
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="endereço">Endereço</label><br>
+            <input type="text">
+            <br>
+            <label for="numero">Número</label><br>
+            <input type="text" name="numero" id="numero">
+            <br>
+            <label for="complemento">Complemento</label><br>
+            <input type="text" name="complemento" id="complemento">
+            <br>
+            <label for="cidade">Cidade</label><br>
+            <input list="cidades" name="cidade" id="cidade">
+            <datalist id="cidades">
+                <option value="Sorocaba"></option>
+                <option value="Itu"></option>
+                <option value="Sao Paulo"></option>
+                <option value="Votorantim"></option>
+            </datalist>
+            <br>
+            <label for="estado">Estado</label><br>
+            <select name="estado" id="estado">
+                <option value="São Paulo">Sao Paulo</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Acre">Acre</option>
+            </select>
+            <br>
+            <label for="CEP">CEP</label><br>
+            <input type="text" name="CEP" id="CEP">
+            <br>
+            <h1>Gênero</h1>
+            <input type="radio" id="huey" name="Masculino">
+            <label for="huey">Masculino</label><br>
+            <input type="radio" id="huey" name="Feminino">
+            <label for="huey">Feminino</label><br>
+            <input type="radio" id="huey" name="helicoptero">
+            <label for="huey">Prefiro não falar</label>
+            <h1>Curso</h1>
+            <input type="checkbox" name="ADS" id="ADS">
+            <label for="ADS">ADS</label><br>
+            <input type="checkbox" name="psicologia" id="psicologia">
+            <label for="psicologia">Psicologia</label><br>
+            <input type="checkbox" name="Jogo Digitais" id="Jogos Digitais">
+            <label for="Jogos Digitais">Jogos Digitais</label><br>
+            <input type="checkbox" name="engenharia computção" id="engenharia computção">
+            <label for="engenharia computção">Engenharia da Computação</label><br>
+            <input type="checkbox" name="engenharia eletrica" id="engenharia eletrica">
+            <label for="engenharia eletrica">Engenharia Eletrica</label>
+            <br>
+            <h1>Modelo</h1>
+            <input type="radio" id="huey" name="Presencial">
+            <label for="huey">Presencial</label><br>
+            <input type="radio" id="huey" name="EAD">
+            <label for="huey">EAD</label><br>
+            <input type="radio" id="huey" name="Semi Presencial">
+            <label for="huey">Semi Presencial</label>
+            <input type="radio" id="huey" name="Integral">
+            <label for="huey">Integral</label>
+        </div>
+    </form>
 </body>
+
 </html>
