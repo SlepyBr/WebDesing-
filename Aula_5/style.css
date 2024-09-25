@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.titulo {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 96px;
+    border: 1px;
+}
+
+.loren {
+    color: rgb(76, 95, 180);
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 130px;
+    top: 112px;
+    margin-right: 98px;
+}
+
+.botaomain{
+    display: flex;
+    justify-content: center;
+    margin-right: 96px;
+    margin-top: 52px;
+}
+.botao1 {
+    width: 190px;
+    height: 36px;
+    top: 454px;
+    left: 221px;
+    margin-right: 29px;
+    background-color: #111B47;
+    color: #FFFFFF;
+    ;
+}
+.botao2{
+    width: 190px;
+    height: 36px;
+    top: 454px;
+    left: 221px;
+    background-color: white;
+    color: #091133;
+    ;
+}
+
+.celular {
+    display: flex;
+
+}
+
+.red-rose {
+    font-family: "Red Rose", serif;
+    font-optical-sizing: auto;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+}
