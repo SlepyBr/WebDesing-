@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 108px;
+}
+
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 495px;
+    height: 154px;
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 487px;
+    height: 128px;
+    top: 286px;
+    margin-right: 65px;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    color: #333333;
+}
+.bolasmain{
+    display: flex;
+    justify-content: space-between;
+}
+.bolas {
+    width: 148px;
+    height: 148px;
+    top: 593px;
+    left: 644px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    width: 302px;
+    height: 348px;
+    border-radius: 40px;
+    border: 1px;
+    color: #333333;
+}
+
+.botãomain{
+    display: flex;
+    justify-content: center;
+    margin-right: 209px;
+    margin-top: 33px;
+}
+.botão {
+    width: (222px)px;
+    height: (66px)px;
+    top: 447px;
+    left: 601px;
+    padding: 24px 56px 24px 56px;
+    gap: 10px;
+    border-radius: 40px;
+    background-color: #333333;
+    color: white;
+}
