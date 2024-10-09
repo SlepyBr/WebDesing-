@@ -1,1 +1,1 @@
-Pasta para aulas de Web Desing
+Aulas de web desing da faculdade, tanto quanto projetos quanto lições.
